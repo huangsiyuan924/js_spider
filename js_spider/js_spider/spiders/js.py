@@ -17,12 +17,26 @@ class JsSpider(scrapy.Spider):
         self.base_url = 'https://www.jianshu.com'
         # 文章id列表
         self.note_id_list = []
-        self.params = {}
         self.page = 2
         self.headers = {
                 'X-CSRF-Token': 'Y9qU69H+LFxD9J1zplqZWQTxwjr+j6CwF/fKtCtyqBzCTMX4LGgLEcY/swg8ozYO0xyah0vs1RUq0jWiqor/Ew==',
                 'X-INFINITESCROLL': 'true',
             }
+        self.cookies = {
+    "_ga":"GA1.2.258306108.1588930799",
+    "__gads":"ID=d03fdd9b03bf5071:T=1588930801:S=ALNI_MZHBnUJW1VlO8sr_IE15y4rzDhdAQ",
+    "__yadk_uid":"V76Xh43jzINro2VKnJP5mbvUTpXuVW5I",
+    "_gid":"GA1.2.2082141055.1595774311",
+    "read_mode":"day",
+    "default_font":"font2",
+    "locale":"zh-CN",
+    "remember_user_token":"W1sxNDkxMTYyNV0sIiQyYSQxMSQ1ejg0QVBhOWNhQ2JuVnFFSUlpLnd1IiwiMTU5NTkzMzAwMi4zODEwNTIzIl0%3D--3b6914927f898e2037b376a92e634c8cda1f2f2a",
+    "web_login_version":"MTU5NTkzMzAwMg%3D%3D--0e9eea2f23d5f44b42264a8395e9d544346cc800",
+    "_m7e_session_core":"e87b7aef040a2d6145ad5175c82370c0",
+    "Hm_lvt_0c0e9d9b1e7d617b3e6842e85b9fb068":"1595923117,1595923362,1595928454,1595942557",
+    "sensorsdata2015jssdkcross":"%7B%22distinct_id%22%3A%2214911625%22%2C%22first_id%22%3A%22171f3a7e1d1728-0111558f062b3c-b383f66-1327104-171f3a7e1d2786%22%2C%22props%22%3A%7B%22%24latest_traffic_source_type%22%3A%22%E7%9B%B4%E6%8E%A5%E6%B5%81%E9%87%8F%22%2C%22%24latest_search_keyword%22%3A%22%E6%9C%AA%E5%8F%96%E5%88%B0%E5%80%BC_%E7%9B%B4%E6%8E%A5%E6%89%93%E5%BC%80%22%2C%22%24latest_referrer%22%3A%22%22%2C%22%24latest_utm_source%22%3A%22desktop%22%2C%22%24latest_utm_medium%22%3A%22search-input%22%2C%22%24latest_utm_campaign%22%3A%22maleskine%22%2C%22%24latest_utm_content%22%3A%22note%22%2C%22%24latest_referrer_host%22%3A%22%22%7D%2C%22%24device_id%22%3A%22171f3a7e1d1728-0111558f062b3c-b383f66-1327104-171f3a7e1d2786%22%7D",
+    "Hm_lpvt_0c0e9d9b1e7d617b3e6842e85b9fb068":"1595947618"
+}
 
 
     def parse(self, response):
@@ -34,6 +48,7 @@ class JsSpider(scrapy.Spider):
             yield scrapy.Request(
                 url=self.base_url + note,
                 meta={"note_id": note_id},
+                cookies=self.cookies,
                 callback=self.parse_detail
             )
             next_page_url = next_page_url + "seen_snote_ids[]=" + note_id + "&"
@@ -46,6 +61,7 @@ class JsSpider(scrapy.Spider):
             },
             dont_filter=True,
             headers=self.headers,
+            cookies=self.cookies,
             callback=self.next_page_parse
         )
 
@@ -59,6 +75,7 @@ class JsSpider(scrapy.Spider):
                 url=self.base_url + note,
                 meta={"note_id": note_id},
                 dont_filter=True,
+                cookies=self.cookies,
                 callback=self.parse_detail
             )
             next_page_url = next_page_url + "seen_snote_ids[]=" + note_id + "&"
@@ -113,6 +130,7 @@ class JsSpider(scrapy.Spider):
         item["wordage"] = wordage
         item["views_count"] = views_count
         item["content"] = content
+        print(self.page)
         yield item
 
 
