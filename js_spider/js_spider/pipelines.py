@@ -8,7 +8,8 @@ from js_spider.mysqlUtil import MysqlHelper
 
 
 class JsSpiderPipeline(object):
-    self.helper = MysqlHelper()
+    def __init__(self):
+        self.helper = MysqlHelper()
     def process_item(self, item, spider):
         note_id = item["note_id"]
         title = item["title"]
@@ -30,5 +31,4 @@ class JsSpiderPipeline(object):
                                      wordage,
                                      views_count,
                                      content)
-        print(note_id)
         return item

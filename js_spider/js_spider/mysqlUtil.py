@@ -33,7 +33,7 @@ class MysqlHelper():
                         last_updated_at DATETIME NOT NULL, -- 帖子最后一次更新时间
                         wordage INT NOT NULL, -- 字数
                         views_count INT NOT NULL, -- 阅读数
-                        content TEXT NOT NULL, -- 文章内容
+                        content TEXT NOT NULL -- 文章内容
                         )
         ''')
 
@@ -48,7 +48,7 @@ class MysqlHelper():
                          wordage,
                          views_count,
                          content):
-        sql = "INSERT INTO qsbk(note_id, title, nick_name, nick_id, likes_count, comments_count, last_updated_at, wordage, views_count, content) VALUES('%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s')" % (note_id, title, nick_name, nick_id, likes_count, comments_count, last_updated_at, wordage, views_count, content)
+        sql = "INSERT INTO js_spider(note_id, title, nick_name, nick_id, likes_count, comments_count, last_updated_at, wordage, views_count, content) VALUES('%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s')" % (note_id, title, nick_name, nick_id, likes_count, comments_count, last_updated_at, wordage, views_count, content)
         self.cursor.execute(sql)
         self.db.commit()
     def close(self):

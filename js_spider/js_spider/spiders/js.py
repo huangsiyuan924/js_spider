@@ -92,7 +92,7 @@ class JsSpider(scrapy.Spider):
         # 评论数
         comments_count = data["comments_count"]
         # 帖子最后一次更新时间
-        last_updated_at = data["last_updated_at"]
+        last_updated_at = timestamp2string(data["last_updated_at"])
         # 字数
         wordage = data["wordage"]
         # 阅读数
