@@ -1,0 +1,403 @@
+{
+    "dataManager": "[]",
+    "props": {
+        "isServer": true,
+        "initialState": {
+            "global": {
+                "fontType": "black",
+                "locale": "zh-CN",
+                "readMode": "day",
+                "seoList": [
+                    {
+                        "comments_count": 1,
+                        "public_abbr": "1.每天拍几张照片 心理学家建议，每天用相机拍下一些身边的人和事，如窗外的树木、路边的小花、邻居家的孩子和朋友的婚...",
+                        "share_image_url": "",
+                        "slug": "ff5a2051fccf",
+                        "user": {
+                            "id": 5897496,
+                            "nickname": "温文尔_cd",
+                            "slug": "d61db99134ce",
+                            "avatar": "https://upload.jianshu.io/users/upload_avatars/5897496/49ce8dc6-c852-473f-9b57-dab8ac7b89cd.jpg"
+                        },
+                        "likes_count": 0,
+                        "title": "17种会让你变开心的生活习惯",
+                        "id": 50606082,
+                        "views_count": 104
+                    },
+                    {
+                        "comments_count": 0,
+                        "public_abbr": "1.每天拍几张照片 心理学家建议，每天用相机拍下一些身边的人和事，如窗外的树木、路边的小花、邻居家的孩子和朋友的婚...",
+                        "share_image_url": "",
+                        "slug": "6b3ba4fde26f",
+                        "user": {
+                            "id": 8892997,
+                            "nickname": "盲的鱼y",
+                            "slug": "35a48a54148d",
+                            "avatar": "https://upload.jianshu.io/users/upload_avatars/8892997/7d67ac46-1f02-47e1-8380-46334f80b7cb.jpg"
+                        },
+                        "likes_count": 1,
+                        "title": "17种会让你变开心的生活习惯。",
+                        "id": 36767918,
+                        "views_count": 85
+                    },
+                    {
+                        "comments_count": 0,
+                        "public_abbr": "1.每天拍几张照片 心理学家建议，每天用相机拍下一些身边的人和事，如窗外的树木、路边的小花、邻居家的孩子和朋友的婚...",
+                        "share_image_url": "",
+                        "slug": "cc4d402ef0cf",
+                        "user": {
+                            "id": 2581671,
+                            "nickname": "心羽姐姐",
+                            "slug": "966a9f281fd1",
+                            "avatar": "https://upload.jianshu.io/users/upload_avatars/2581671/4ef0e153-d242-4950-9aaf-0f7c464b8145.jpg"
+                        },
+                        "likes_count": 2,
+                        "title": "17种会让你变开心的生活习惯",
+                        "id": 50142042,
+                        "views_count": 294
+                    },
+                    {
+                        "comments_count": 0,
+                        "public_abbr": "1.每天拍几张照片 心理学家建议，每天用相机拍下一些身边的人和事，如窗外的树木、路边的小花、邻居家的孩子和朋友的婚...",
+                        "share_image_url": "http://upload-images.jianshu.io/upload_images/2144510-05ea9a13df1a0d3e.jpg",
+                        "slug": "622a90405229",
+                        "user": {
+                            "id": 2144510,
+                            "nickname": "Thirdpigs",
+                            "slug": "04f669839faf",
+                            "avatar": "https://upload.jianshu.io/users/upload_avatars/2144510/e9f5be55-4a8a-47af-84c9-2f8616594739.jpg"
+                        },
+                        "likes_count": 0,
+                        "title": "17种会让你变开心的生活习惯",
+                        "id": 42256395,
+                        "views_count": 76
+                    },
+                    {
+                        "comments_count": 0,
+                        "public_abbr": "1.每天拍几张照片 心理学家建议，每天用相机拍下一些身边的人和事，如窗外的树木、路边的小花、邻居家的孩子和朋友的婚...",
+                        "share_image_url": "",
+                        "slug": "056671dbfc96",
+                        "user": {
+                            "id": 15232778,
+                            "nickname": "情非得已9820",
+                            "slug": "14e1c5712f6a",
+                            "avatar": "https://upload.jianshu.io/users/upload_avatars/15232778/3adcf4c5-cde6-4a26-8357-cddcd9e33881.jpg"
+                        },
+                        "likes_count": 3,
+                        "title": "17种会让你变开心的生活习惯",
+                        "id": 42239714,
+                        "views_count": 102
+                    }
+                ],
+                "done": false,
+                "$ua": {
+                    "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36",
+                    "isIE11": false,
+                    "earlyIE": null,
+                    "chrome": "83.0",
+                    "firefox": null,
+                    "safari": null,
+                    "isMac": false
+                },
+                "$diamondRate": {
+                    "displayable": false,
+                    "rate": 0
+                },
+                "$modal": {
+                    "ContributeModal": false,
+                    "RewardListModal": false,
+                    "PayModal": false,
+                    "CollectionModal": false,
+                    "LikeListModal": false,
+                    "ReportModal": false,
+                    "QRCodeShareModal": false,
+                    "BookCatalogModal": false,
+                    "RewardModal": false
+                }
+            },
+            "note": {
+                "data": {
+                    "is_author": false,
+                    "last_updated_at": 1565397371,
+                    "public_title": "17种会让你变开心的生活习惯",
+                    "purchased": false,
+                    "liked_note": false,
+                    "comments_count": 15,
+                    "free_content": "\u003cdiv class=\"image-package\"\u003e\n\u003cdiv class=\"image-container\" style=\"max-width: 690px; max-height: 690px;\"\u003e\n\u003cdiv class=\"image-container-fill\" style=\"padding-bottom: 100.0%;\"\u003e\u003c/div\u003e\n\u003cdiv class=\"image-view\" data-width=\"690\" data-height=\"690\"\u003e\u003cimg data-original-src=\"//upload-images.jianshu.io/upload_images/2425636-9b5676d54f686366.jpg\" data-original-width=\"690\" data-original-height=\"690\" data-original-format=\"image/jpeg\" data-original-filesize=\"65503\"\u003e\u003c/div\u003e\n\u003c/div\u003e\n\u003cdiv class=\"image-caption\"\u003e\u003c/div\u003e\n\u003c/div\u003e\u003cp\u003e17种会让你变开心的生活习惯\u003c/p\u003e\u003cp\u003e\u003cbr\u003e\u003c/p\u003e\u003cblockquote\u003e\u003cp\u003e1.每天拍几张照片\u003c/p\u003e\u003c/blockquote\u003e\u003cp\u003e心理学家建议，每天用相机拍下一些身边的人和事，如窗外的树木、路边的小花、邻居家的孩子和朋友的婚礼。将这些随时可能被遗忘的片段记录起来，当你不定期整理照片时，你会觉得所有的细节都是美好回忆，没什么可抱怨的，于是人会很容易变得快乐起来。\u003c/p\u003e\u003cblockquote\u003e\u003cp\u003e2.看悲伤的电影\u003c/p\u003e\u003c/blockquote\u003e\u003cp\u003e看一部令人伤感的电影，情难自禁时，不妨尽情地放声哭出来，然后安慰自己说，还好这只是电影情节，并不是真实的生活，心情便会大有改观。\u003c/p\u003e\u003cp\u003e这是一种反向思考的方法，常运用在心理学中，帮助人们换角度思问题。\u003c/p\u003e\u003cblockquote\u003e\u003cp\u003e3.在周末的清晨做白日梦\u003c/p\u003e\u003c/blockquote\u003e\u003cp\u003e不少能干的主妇，会从星期六一大早起床开始，马不停蹄地做家务活，如收拾屋子，清洗马桶等。这样的习惯常常会让人在星期六晚上疲惫不堪，并影响到星期日的睡眠。不妨暂时抛开那些琐碎的家务活，在周末的清晨做一个美美的白日梦。不要自责，而应鼓励自己说：“我工作那么辛苦，挥霍一下自己的休息时间，无可厚非。”\u003c/p\u003e\u003cblockquote\u003e\u003cp\u003e4.定期写文字\u003c/p\u003e\u003c/blockquote\u003e\u003cp\u003e有写日记习惯的人，只是在纸上随手涂鸦或草草地写上几句，便能反映出潜意识中的心理状态，写文字，书信，也是如此。而定期与朋友通文字，聊聊最近的生活，不仅能帮助你放下心里的事情，还能帮助你拾起被淡漠的友情。\u003c/p\u003e\u003cblockquote\u003e\u003cp\u003e5.在水边散步\u003c/p\u003e\u003c/blockquote\u003e\u003cp\u003e有研究指出，因为在婴儿时期便置身于羊水，因此人与生俱来就是亲水的。在水边散步，能有效地帮助人放松身心，即使烦恼再多，在有绿树有流水的环境中，你也能暂时抛开一切，为自己“偷”得片刻悠闲。\u003c/p\u003e\u003cblockquote\u003e\u003cp\u003e6.偶尔吃一顿大餐\u003c/p\u003e\u003c/blockquote\u003e\u003cp\u003e吃一顿大餐的美妙在于，不仅能享受到美味可口的食物，还能让你感觉自己受到了特别礼遇。人在受到与别人不同的照顾时，心情会不知不觉地变好。我们在小时侯都可能有类似这样的经历：当父母特意为你买了一只与其他孩子不一样的、漂亮的碗，你会高高兴兴地吃下比平时多的食物，即使不爱吃的食物也变得“可爱”起来。\u003c/p\u003e\u003cblockquote\u003e\u003cp\u003e7.参加集体活动\u003c/p\u003e\u003c/blockquote\u003e\u003cp\u003e虽然独处也是调节心情的方法之一，但是不要吝啬自己的休息时间，分出一部分给集体活动。登山、郊游、野餐、party、歌友会……鼓励自己积极参加集体活动，你会在共同的玩乐中找到让自己坚强、平和的力量。\u003c/p\u003e\u003cblockquote\u003e\u003cp\u003e8.定期游泳\u003c/p\u003e\u003c/blockquote\u003e\u003cp\u003e游泳是最消耗体力的运动之一，但这种让人精疲力竭的活动，能让人摆脱烦恼，身心舒展。选择一个人去游泳也不错，被水包围其中，再糟糕的心情也能被软化。\u003c/p\u003e\u003cblockquote\u003e\u003cp\u003e9.一边开车，一边大声歌唱\u003c/p\u003e\u003c/blockquote\u003e\u003cp\u003e心情不好时，打开车上的收音机，调到较大音量，跟着里面播放的旋律大声歌唱，完全不必在意别人投来异样的眼神。也许此时的你在别人眼中有点傻乎乎的，但这确实是一种让人快速释放心情的好方法。\u003c/p\u003e\u003cblockquote\u003e\u003cp\u003e10.一边喝咖啡，一边读小说\u003c/p\u003e\u003c/blockquote\u003e\u003cp\u003e挑一家出名的咖啡馆，带上一本近期最让你感兴趣的小说，选一个靠窗边的位置，坐下来点一杯咖啡，边喝边读……是的，这是电影里常常出现的“小资”镜头。但那又有什么关系，让自己体验一下电影中才有的浪漫镜头，你也会受到气氛的影响，得到真实的放松和享受。\u003c/p\u003e\u003cblockquote\u003e\u003cp\u003e11.给朋友寄卡片\u003c/p\u003e\u003c/blockquote\u003e\u003cp\u003e挑选10~15张别致的卡片，放在包中随身携带，在等公共汽车、排队结帐、等人时，随手拿出一张写上只字片语，如“想念你”、“愿你的心情和今天的天气一样灿烂”、“一定要幸福哟”、“想起我们上大学的日子”等等，然后邮寄给你的朋友。当所有的卡片都被一一写完并邮寄出去后，一想到朋友们收到卡片时惊喜的表情，你会露出发自内心的迷人笑容。\u003c/p\u003e\u003cp\u003e另外7个生活习惯，不妨从现在开始尝试——\u003c/p\u003e\u003cp\u003e12.在每个星期一的早晨，穿一身色彩亮丽、明快的衣服。\u003c/p\u003e\u003cp\u003e13.一边打电话，一边信手涂鸦。\u003c/p\u003e\u003cp\u003e14.偶尔吃一份最昂贵的蛋糕或巧克力。\u003c/p\u003e\u003cp\u003e15.一边洗澡，一边唱歌。\u003c/p\u003e\u003cp\u003e16.穿让你感觉最舒服的衣服。\u003c/p\u003e\u003cp\u003e17.有规律地生活。\u003c/p\u003e",
+                    "voted_down": false,
+                    "rewardable": true,
+                    "show_paid_comment_tips": false,
+                    "share_image_url": "https://upload-images.jianshu.io/upload_images/2425636-9b5676d54f686366.jpg",
+                    "slug": "406170712c8c",
+                    "user": {
+                        "liked_by_user": false,
+                        "following_count": 9380,
+                        "gender": 1,
+                        "slug": "6f226dfee850",
+                        "intro": "摄影博主 摄影讲师 创作人 Lifestyle KOL\r\n摄影网站：lunxiaoye.lof...",
+                        "likes_count": 2317,
+                        "nickname": "伦小野",
+                        "badges": [
+                            {
+                                "text": "视觉达人",
+                                "intro_url": "http://www.jianshu.com/p/d1d89ed69098",
+                                "image_url": "https://upload.jianshu.io/user_badge/3eaaaac7-de86-4811-86e1-44d82cbac20f",
+                                "icon": "other"
+                            }
+                        ],
+                        "total_fp_amount": "157005961255143339985",
+                        "wordage": 223523,
+                        "avatar": "https://upload.jianshu.io/users/upload_avatars/2425636/1b227cf0-8050-407e-bb90-f099f25a6327.jpg",
+                        "id": 2425636,
+                        "liked_user": false
+                    },
+                    "likes_count": 75,
+                    "paid_type": "free",
+                    "show_ads": true,
+                    "paid_content_accessible": false,
+                    "total_fp_amount": "6971000000000000000",
+                    "trial_open": false,
+                    "reprintable": true,
+                    "bookmarked": false,
+                    "wordage": 1437,
+                    "featured_comments_count": 1,
+                    "downvotes_count": 0,
+                    "wangxin_trial_open": false,
+                    "commentable": true,
+                    "total_rewards_count": 0,
+                    "id": 52194147,
+                    "notebook": {
+                        "name": ""
+                    },
+                    "description": "17种会让你变开心的生活习惯 1.每天拍几张照片 心理学家建议，每天用相机拍下一些身边的人和事，如窗外的树木、路边的小花、邻居家的孩子和朋友的婚礼。将这些随时可能被遗忘的片段...",
+                    "first_shared_at": 1565397372,
+                    "views_count": 35853,
+                    "notebook_id": 27400374
+                },
+                "baseList": {
+                    "likeList": [],
+                    "rewardList": []
+                },
+                "status": "success",
+                "statusCode": 0
+            },
+            "user": {
+                "isLogin": false,
+                "userInfo": {}
+            },
+            "comments": {
+                "list": [],
+                "featuredList": []
+            }
+        },
+        "initialProps": {
+            "pageProps": {
+                "query": {
+                    "slug": "406170712c8c"
+                }
+            },
+            "localeData": {
+                "common": {
+                    "jianshu": "简书",
+                    "diamond": "简书钻",
+                    "totalAssets": "总资产{num}",
+                    "diamondValue": " (约{num}元)",
+                    "login": "登录",
+                    "logout": "注销",
+                    "register": "注册",
+                    "on": "开",
+                    "off": "关",
+                    "follow": "关注",
+                    "followBook": "关注连载",
+                    "following": "已关注",
+                    "cancelFollow": "取消关注",
+                    "publish": "发布",
+                    "wordage": "字数",
+                    "audio": "音频",
+                    "read": "阅读",
+                    "reward": "赞赏",
+                    "zan": "赞",
+                    "comment": "评论",
+                    "expand": "展开",
+                    "prevPage": "上一页",
+                    "nextPage": "下一页",
+                    "floor": "楼",
+                    "confirm": "确定",
+                    "delete": "删除",
+                    "report": "举报",
+                    "fontSong": "宋体",
+                    "fontBlack": "黑体",
+                    "chs": "简体",
+                    "cht": "繁体",
+                    "jianChat": "简信",
+                    "postRequest": "投稿请求",
+                    "likeAndZan": "喜欢和赞",
+                    "rewardAndPay": "赞赏和付费",
+                    "home": "我的主页",
+                    "markedNotes": "收藏的文章",
+                    "likedNotes": "喜欢的文章",
+                    "paidThings": "已购内容",
+                    "wallet": "我的钱包",
+                    "setting": "设置",
+                    "feedback": "帮助与反馈",
+                    "loading": "加载中...",
+                    "needLogin": "请登录后进行操作",
+                    "trialing": "文章正在审核中...",
+                    "reprintTip": "禁止转载，如需转载请通过简信或评论联系作者。"
+                },
+                "error": {
+                    "rewardSelf": "无法打赏自己的文章哟~"
+                },
+                "message": {
+                    "paidNoteTip": "付费购买后才可以参与评论哦",
+                    "CommentDisableTip": "作者关闭了评论功能",
+                    "contentCanNotEmptyTip": "回复内容不能为空",
+                    "addComment": "评论发布成功",
+                    "deleteComment": "评论删除成功",
+                    "likeComment": "评论点赞成功",
+                    "setReadMode": "阅读模式设置成功",
+                    "setFontType": "字体设置成功",
+                    "setLocale": "显示语言设置成功",
+                    "follow": "关注成功",
+                    "cancelFollow": "取消关注成功",
+                    "copySuccess": "复制代码成功"
+                },
+                "header": {
+                    "homePage": "首页",
+                    "download": "下载APP",
+                    "discover": "发现",
+                    "message": "消息",
+                    "reward": "赞赏支持",
+                    "editNote": "编辑文章",
+                    "writeNote": "写文章"
+                },
+                "note": {},
+                "noteMeta": {
+                    "lastModified": "最后编辑于 ",
+                    "wordage": "字数 {num}",
+                    "viewsCount": "阅读 {num}"
+                },
+                "divider": {
+                    "selfText": "以下内容为付费内容，定价 ¥{price}",
+                    "paidText": "已付费，可查看以下内容",
+                    "notPaidText": "还有 {percent} 的精彩内容",
+                    "modify": "点击修改"
+                },
+                "paidPanel": {
+                    "buyNote": "支付 ¥{price} 继续阅读",
+                    "buyBook": "立即拿下 ¥{price}",
+                    "freeTitle": "该作品为付费连载",
+                    "freeText": "购买即可永久获取连载内的所有内容，包括将来更新的内容",
+                    "paidTitle": "还没看够？拿下整部连载！",
+                    "paidText": "永久获得连载内的所有内容, 包括将来更新的内容"
+                },
+                "book": {
+                    "last": "已是最后",
+                    "lookCatalog": "查看连载目录",
+                    "header": "文章来自以下连载"
+                },
+                "action": {
+                    "like": "{num}人点赞",
+                    "collection": "收入专题",
+                    "report": "举报文章"
+                },
+                "comment": {
+                    "allComments": "全部评论",
+                    "featuredComments": "精彩评论",
+                    "closed": "评论已关闭",
+                    "close": "关闭评论",
+                    "open": "打开评论",
+                    "desc": "按时间倒序",
+                    "asc": "按时间正序",
+                    "disableText1": "用户已关闭评论，",
+                    "disableText2": "与Ta简信交流",
+                    "placeholder": "写下你的评论...",
+                    "publish": "发表",
+                    "create": " 添加新评论",
+                    "reply": " 回复",
+                    "restComments": "还有{num}条评论，",
+                    "expandImage": "展开剩余{num}张图",
+                    "deleteText": "确定要删除评论么？"
+                },
+                "collection": {
+                    "title": "被以下专题收入，发现更多相似内容",
+                    "putToMyCollection": "收入我的专题"
+                },
+                "seoList": {
+                    "title": "推荐阅读",
+                    "more": "更多精彩内容"
+                },
+                "sideList": {
+                    "title": "推荐阅读"
+                },
+                "wxShareModal": {
+                    "desc": "打开微信“扫一扫”，打开网页后点击屏幕右上角分享按钮"
+                },
+                "bookChapterModal": {
+                    "try": "试读",
+                    "toggle": "切换顺序"
+                },
+                "collectionModal": {
+                    "title": "收入到我管理的专题",
+                    "search": "搜索我管理的专题",
+                    "newCollection": "新建专题",
+                    "create": "创建",
+                    "nothingFound": "未找到相关专题",
+                    "loadMore": "展开查看更多"
+                },
+                "contributeModal": {
+                    "search": "搜索专题投稿",
+                    "newCollection": "新建专题",
+                    "addNewOne": "去新建一个",
+                    "nothingFound": "未找到相关专题",
+                    "loadMore": "展开查看更多",
+                    "managed": "我管理的专题",
+                    "recommend": "推荐专题"
+                },
+                "QRCodeShow": {
+                    "payTitle": "微信扫码支付",
+                    "payText": "支付金额"
+                },
+                "rewardModal": {
+                    "title": "给作者送糖",
+                    "custom": "自定义",
+                    "placeholder": "给Ta留言...",
+                    "choose": "选择支付方式",
+                    "balance": "简书余额",
+                    "tooltip": "网站该功能暂时下线，如需使用，请到简书App操作",
+                    "confirm": "确认支付",
+                    "success": "赞赏成功"
+                },
+                "payModal": {
+                    "payBook": "购买连载",
+                    "payNote": "购买文章",
+                    "promotion": "优惠券",
+                    "promotionFetching": "优惠券获取中...",
+                    "noPromotion": "无可用优惠券",
+                    "promotionNum": "{num}张可用",
+                    "noUsePromotion": "不使用优惠券",
+                    "validPromotion": "可用优惠券",
+                    "invalidPromotion": "不可用优惠券",
+                    "total": "支付总额",
+                    "tip1": "· 你将购买的商品为虚拟内容服务，购买后不支持退订、转让、退换，请斟酌确认。",
+                    "tip2": "· 购买后可在“已购内容”中查看和使用。",
+                    "success": "购买成功"
+                },
+                "reportModal": {
+                    "ad": "广告及垃圾信息",
+                    "plagiarism": "抄袭或未授权转载",
+                    "placeholder": "写下举报的详情情况（选填）",
+                    "success": "举报成功"
+                }
+            },
+            "currentLocale": "zh-CN",
+            "asPath": "/p/406170712c8c"
+        }
+    },
+    "page": "/p/[slug]",
+    "query": {
+        "slug": "406170712c8c"
+    },
+    "buildId": "KVlR_dG7GwbURcGKHaOn2",
+    "assetPrefix": "https://cdn2.jianshu.io/shakespeare"
+}
